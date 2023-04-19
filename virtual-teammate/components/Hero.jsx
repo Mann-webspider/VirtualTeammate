@@ -6,16 +6,16 @@ import "./Hero.css"
 
 function Hero() {
     return (
-        <div className='w-full h-screen  bg-gradient-to-br from-[#aacfb9] to-white   flex flex-col-reverse lg:flex-row  '>
-            <div className="left w-full lg:w-2/4 flex justify-start  h-96 lg:h-full ">
+        <div className=' h-screen bg-gradient-to-br from-[#aacfb9] to-white flex flex-col-reverse justify-around lg:items-center  lg:flex-row lg:px-8 px-4'>
+            <div className="left max-w-xl lg:w-2/4 flex  lg:items-center  h-96 lg:h-full lg:pr-4">
                 <h2 className='text-5xl lg:text-7xl font-bold'>Take Control of Your <span className='text-[#6aa381]'>To-Do List</span> With a Virtual Assistant</h2>
             </div>
-            <div className="right h-min w-1/2  ">
+            <div className="right h-min max-w-xl lg:w-1/2  ">
                 {/* <div className="block w-20 h-20 rounded-[1.5rem] bg-black z-10 lg:w-40 lg:h-40 lg:rounded-[3.5rem]">
                 </div> */}
-                <div className='  relative w-screen   object-center h-min lg:w-full lg:h-full' >
+                <div className='  relative  object-center h-min lg:w-full lg:h-full' >
                     <div className=''>
-                        <Image src={heroImg} className='hero absolute object-contain rounded-[3.5rem] ' />
+                        <Image src={heroImg} className='hero  object-cover rounded-[3.5rem] ' />
                     </div>
                     {/* <Image src={mask} className=' object-contain absolute top-[-10rem] left-10 mix-blend-screen  '/> */}
                     {/* <svg width="572" height="531" viewBox="0 0 572 531" fill="none" xmlns="http://www.w3.org/2000/svg" className='absolute top-0 mix-blend-screen'>
