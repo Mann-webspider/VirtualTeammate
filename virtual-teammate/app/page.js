@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="p-0 m-0 box-border">
       <Navbar/> 
       <Hero/>
       <Features/>
