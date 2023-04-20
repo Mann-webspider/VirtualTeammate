@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { HiArrowSmRight } from "react-icons/hi";
 function Interaction() {
   return (
-    <section className='flex flex-col w-screen h-fit lg:h-screen p-0 m-0  bg-green-50  lg:items-center lg:justify-center '>
+    <section className='flex flex-col w-screen h-fit lg:h-screen p-0 m-0  bg-green-50  lg:items-center lg:justify-center pb-16'>
       <div className=' lg:w-screen lg:h-screen lg:flex-row lg:items-center lg:flex lg:justify-center md:items-center md:flex md:flex-col md:px-16  md:justify-center  lg:px-16 flex flex-col justify-center items-center'>
 
       <div className="left w-96 h-96  lg:w-1/2 md:w-fit mt-16 ">
