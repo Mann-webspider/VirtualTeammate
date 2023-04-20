@@ -10,11 +10,11 @@ function Hero() {
             <div className="left max-w-xl lg:w-2/4 flex  lg:items-center  h-96 lg:h-full lg:pr-4">
                 <h2 className='text-5xl lg:text-7xl font-bold'>Take Control of Your <span className='text-[#6aa381]'>To-Do List</span> With a Virtual Assistant</h2>
             </div>
-            <div className="right h-min max-w-xl lg:w-1/2  ">
+            <div className="right h-min max-w-xl lg:w-1/2 md:max-w-screen-md md:flex md:justify-center ">
                 {/* <div className="block w-20 h-20 rounded-[1.5rem] bg-black z-10 lg:w-40 lg:h-40 lg:rounded-[3.5rem]">
                 </div> */}
-                <div className='  relative  object-center h-min lg:w-full lg:h-full' >
-                    <div className=''>
+                <div className='  relative  object-center h-min lg:w-full lg:h-full ' >
+                    <div className='md:max-w-screen-md flex justify-center'>
                         <Image src={heroImg} className='hero  object-cover rounded-[3.5rem] ' />
                     </div>
                     {/* <Image src={mask} className=' object-contain absolute top-[-10rem] left-10 mix-blend-screen  '/> */}
