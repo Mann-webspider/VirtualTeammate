@@ -15,11 +15,12 @@ function Hero() {
                 <Link href={'#'}><button className=' bg-[#aacfb9] py-2 rounded-full font-medium flex items-center justify-between lg:font-medium pl-8'>Get start -- Now <span className='ml-4 mr-2'><HiArrowSmRight className='h-12 w-12 bg-black text-white rounded-full p-2 '/></span> 
                     </button></Link>
             </div>
-            <div className="right h-min max-w-xl lg:w-1/2  ">
-               
-                <div className='  object-center h-min lg:w-full lg:h-full' >
-                    <div className=''>
-                        <Image src={heroImg} className='hero   object-cover rounded-[3.5rem] z-0 ' />
+            <div className="right h-min max-w-xl lg:w-1/2 md:max-w-screen-md md:flex md:justify-center ">
+                {/* <div className="block w-20 h-20 rounded-[1.5rem] bg-black z-10 lg:w-40 lg:h-40 lg:rounded-[3.5rem]">
+                </div> */}
+                <div className='  relative  object-center h-min lg:w-full lg:h-full ' >
+                    <div className='md:max-w-screen-md flex justify-center'>
+                        <Image src={heroImg} className='hero  object-cover rounded-[3.5rem] ' />
                     </div>
                     
 
