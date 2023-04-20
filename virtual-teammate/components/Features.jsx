@@ -12,7 +12,7 @@ function Features() {
         );
     }
   return (
-    <div className='w-screen h-fit bg-[#f2f2f2]   flex justify-center items-center text-center pb-20'>
+    <div className='w-screen h-fit    flex justify-center items-center text-center pb-20'>
         <div className='w-full h-full flex flex-col justify-center items-center  '>
 
         <h2 className='text-4xl font-bold lg:text-5xl w-22 px-8 mt-20'>Features And Benefits</h2>
