@@ -10,8 +10,8 @@ import { HiArrowSmRight } from "react-icons/hi";
 function Service() {
     const Box = (props) => {
         return (
-            <div className=' h-fit py-2 px-4 lg:p-4 bg-green-100 rounded-3xl shadow-lg shadow-[#aacfb9] my-6 max-w-[20rem] lg:max-w-[18rem] lg:min-h-[27rem] '>
-                <div className=" flex flex-col justify-evenly w-full h-full relative">
+            <div className=' h-fit py-2 px-4 lg:p-8 bg-[#f2f2f2] rounded-3xl shadow-lg  my-6 max-w-[40rem] active:scale-100  hover:bg-[#b5efcd] hover:scale-105 transition duration-300'>
+                <div className=" flex flex-col lg:flex-row justify-evenly w-full h-full relative">
                     
                     <div className="text  top-0 z-10 py-2">
                         <h1 className='text-3xl font-extrabold lg:font-bold lg:text-2xl md:font-regular'>{props.title}</h1>
@@ -44,7 +44,7 @@ function Service() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                 </h4> */}
             </div>
-            <div className="service grid sm:grid-cols-1 lg:grid-cols-4 lg:gap-8 md:grid-cols-2 md:gap-8">
+            <div className="service grid sm:grid-cols-1 lg:grid-cols-2  lg:gap-8 md:grid-cols-2 md:gap-8">
                 <Box title={"Content Writing Services"} img={ser1} desc={"Don't waste your time to write your own content , because we provide Web content, Blog , Newsletter , Travel , Press release Online content Writing services "}/>
 
                 <Box title={"IT Services"} img={ser4} desc={"Web Design, Branding and Logo design , Web development , Ecommerce Development, Software development , Which will give a Professional look for your business"}/>
