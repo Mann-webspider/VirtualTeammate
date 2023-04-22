@@ -19,7 +19,7 @@ function Service() {
 
                     </div>
                     <div className="img  top-[70%] ">
-                        <Image src={props.img} className='w-fit h-fit' />
+                        <Image src={props.img} className='w-fit h-fit' alt={props.img}/>
                     </div>
                     <div className=' w-fit h-fit  '>
                         {/* <Link href={'#'}><button className=' bg-[#aacfb9] py-1 rounded-full font-medium md:font-bold flex items-center  lg:font-bold pl-6  lg:pl-8 mt-8 text-lg '>Read More <span className='ml-2 mr-2'><HiArrowSmRight className='h-12 w-12 bg-black text-[#aacfb9] rounded-full p-2 ' /></span>

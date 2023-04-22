@@ -27,7 +27,7 @@ function Hero() {
                 </div> */}
                 <div className='  relative  object-center h-min lg:w-full lg:h-full md:items-center '  >
                     <div className='md:max-w-screen-sm  flex justify-center'>
-                        <Image src={heroImg} className='hero  object-cover rounded-[2rem] shadow-2xl' />
+                        <Image src={heroImg} className='hero  object-cover rounded-[2rem] shadow-2xl' alt='heroImg' />
                         {/* <Image src={heroImg} className='w-full h-full object-cover rounded-[3rem] shadow-2xl lg:rounded-[4rem] md:w-fit' /> */}
                     </div>
                     

@@ -9,7 +9,7 @@ function Interaction() {
       <div className=' lg:w-screen lg:h-screen lg:flex-row lg:items-center lg:flex lg:justify-center md:items-center md:flex md:flex-col md:px-16  md:justify-center  lg:px-16 flex flex-col justify-center items-center'>
 
       <div className="left w-full px-4  lg:w-1/2 md:w-fit mt-16 ">
-        <Image src={img} className='w-full h-full object-contain rounded-[3rem] shadow-2xl lg:rounded-[4rem] md:w-fit' />
+        <Image src={img} className='w-full h-full object-contain rounded-[3rem] shadow-2xl lg:rounded-[4rem] md:w-fit' alt='img'/>
       </div>
 
       <div className="right lg:w-1/2">
