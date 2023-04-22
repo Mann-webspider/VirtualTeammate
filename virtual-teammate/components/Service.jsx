@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../public/service2.png"
+
 import Image from 'next/image'
 import ser1 from "../public/social.png"
 import ser2 from "../public/analysis.png"
@@ -15,7 +15,7 @@ function Service() {
                     
                     <div className="text  top-0 z-10 py-2">
                         <h1 className='text-3xl font-extrabold lg:font-bold lg:text-2xl md:font-regular'>{props.title}</h1>
-                        <h3 className='text-gray-500 pr-4 text-sm py-4'>{props.desc}</h3>
+                        <h3 className='text-gray-600 pr-4 text-sm py-4'>{props.desc}</h3>
 
                     </div>
                     <div className="img  top-[70%] ">
@@ -40,9 +40,7 @@ function Service() {
                     Our Professional Virtual Assistant Services
                 </h1>
 
-                {/* <h4 className='text-gray-500 py-8 font-regular text-xl lg:px-80 md:pr-64'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                </h4> */}
+               
             </div>
             <div className="service grid sm:grid-cols-1 lg:grid-cols-2  lg:gap-8 md:grid-cols-2 md:gap-8">
                 <Box title={"Content Writing Services"} img={ser1} desc={"Don't waste your time to write your own content , because we provide Web content, Blog , Newsletter , Travel , Press release Online content Writing services "}/>

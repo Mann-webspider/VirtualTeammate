@@ -35,7 +35,7 @@ function Navbar() {
     }
   }
   return (
-    <div className='h-20  bg-white flex flex-row w-full justify-between items-center p-8 '>
+    <div className='h-20  bg-white flex flex-row w-full justify-between items-center p-8 sticky z-10 back '>
         <div className="logo flex items-center lg:flex-row ">
             <Image  src={logo} className='w-16 h-16 lg:w-24 lg:h-24' /> <p className='text-xl lg:text-3xl font-bold flex'><span className='text-green-500'>Virtual</span> <span>Assistent</span></p>
         </div>
