@@ -6,6 +6,8 @@ import Interaction from "@/components/Interaction";
 import Navbar from "../components/Navbar";
 import Service from "@/components/Service";
 import { ThemeProvider } from "@material-tailwind/react";
+import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 
 
@@ -21,9 +23,11 @@ export default function Home() {
       <Navbar/> 
       <Hero/>
       <Features/>
-      <Interaction/>
       <Service/>
       <Faqs/>
+      <Interaction/>
+      <Contact/>
+      <Footer/>
     </main>
     </ThemeProvider>
     

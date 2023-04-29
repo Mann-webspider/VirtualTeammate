@@ -15,7 +15,7 @@ function Hero() {
     return (
         <div className=' h-fit md:w-screen md:h-fit  lg:h-screen bg-gradient-to-br from-[#aacfb9] via-[#f2f2f2] to-[#f2f2f2] flex flex-col-reverse justify-around lg:items-center   lg:flex-row lg:px-8 px-4'>
             <div className="left max-w-xl lg:w-2/4 flex    h-96 lg:h-full lg:pr-4 flex-col  lg:justify-center justify-around md:max-w-screen-md md:flex md:justify-start     md:items-start md:px-16">
-                <h2 className='text-5xl lg:text-7xl font-bold lg:my-4 md:py-4'>Take Control of Your <span className='text-[#6aa381]'>To-Do List</span> With a Virtual Assistant</h2>
+                <h2 className='text-5xl lg:text-7xl font-bold lg:my-4 md:py-4'>Take Control of Your <span className='text-green-600'>To-Do List</span> With a Virtual Assistant</h2>
                 <p className='text-gray-500 text-xl my-4 lg:text-xl lg:font-medium'>“There is no such thing as a self-made man. You will reach your goals only with the help of others.”</p>
                 <div>
 
