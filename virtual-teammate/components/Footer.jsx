@@ -15,7 +15,7 @@ function Footer() {
                         as="a"
                         href="#"
                         color="blue-gray"
-                        className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+                        className="font-normal transition-colors"
                     >
                         About Us
                     </Typography>
@@ -45,7 +45,7 @@ function Footer() {
                         as="a"
                         href="#contact"
                         color="blue-gray"
-                        className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+                        className="font-normal transition-colors"
                     >
                         Contact Us
                     </Typography>

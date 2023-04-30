@@ -1,5 +1,6 @@
 import React from 'react'
-
+import AOS from 'aos';
+import 'node_modules/aos/dist/aos.css';
 
 function Features() {
     const Testi = (props) => {
@@ -13,12 +14,12 @@ function Features() {
         );
     }
   return (
-    <div className='w-screen h-fit    flex justify-center items-center text-center pb-20'>
+    <div className='w-screen h-fit snap-mandatory snap-center   flex justify-center items-center text-center pb-20'>
         <div className='w-full h-full flex flex-col justify-center items-center  '>
 
-        <h2 className='text-4xl font-bold lg:text-5xl w-22 px-8 mt-20'>Features And Benefits</h2>
+        <h2 data-aos="fade-down" className='text-4xl font-bold lg:text-5xl w-22 px-8 mt-20'>Features And Benefits</h2>
         <p className='my-8  text-[#8a8a8b] font-medium w-2.5/3 lg:w-2/3 lg:text-xl px-8'>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut placeat in facilis corrupti, et amet?</p>
-        <div className='flex flex-col lg:flex-row justify-between items-center lg:justify-evenly lg:flex leading-10 w-full h-full'>
+        <div data-aos="fade-up " data-aos-duration="1000" className='flex flex-col lg:flex-row justify-between items-center lg:justify-evenly lg:flex leading-10 w-full h-full'>
 
         <Testi num="15" head="project done" para="lorem impus golem fus in lobdf db db dfvd " thou={true}/>
         <Testi num="7" head="Happy clients" para="lorem impus golem fus in idbdgb b fgbf b bfb" thou={true}/>

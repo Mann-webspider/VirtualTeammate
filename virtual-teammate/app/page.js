@@ -3,7 +3,7 @@ import Faqs from "@/components/Faqs";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Interaction from "@/components/Interaction";
-import Navbar from "../components/Navbar";
+import NavbarU from "../components/NavbarU";
 import Service from "@/components/Service";
 import { ThemeProvider } from "@material-tailwind/react";
 import Footer from "@/components/Footer";
@@ -19,8 +19,8 @@ export default function Home() {
     <ThemeProvider>
 
 
-    <main className="p-0 m-0 box-border">
-      <Navbar/> 
+    <main className="p-0 m-0 box-border relative">
+      <NavbarU/> 
       <Hero/>
       <Features/>
       <Service/>

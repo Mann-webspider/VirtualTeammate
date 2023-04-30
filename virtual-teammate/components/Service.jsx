@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Image from 'next/image'
 import ser1 from "../public/social.png"
 import ser2 from "../public/analysis.png"
@@ -10,10 +9,10 @@ import { HiArrowSmRight } from "react-icons/hi";
 function Service() {
     const Box = (props) => {
         return (
-            <div className=' h-fit py-2 px-4 lg:p-8 bg-[#f2f2f2] rounded-3xl shadow-lg  my-6 max-w-[40rem] active:scale-100  hover:bg-[#b5efcd] hover:scale-105 transition duration-300'>
+            <div data-aos="fade-down" data-aos-duration="1000"className=' h-fit py-2 px-4 lg:p-8 bg-[#f2f2f2] rounded-3xl shadow-lg  my-6 max-w-[40rem] active:scale-100  hover:bg-[#b5efcd] hover:scale-105 transition duration-300'>
                 <div className=" flex flex-col lg:flex-row justify-evenly w-full h-full relative">
                     
-                    <div className="text  top-0 z-10 py-2">
+                    <div className="text  top-0  py-2">
                         <h1 className='text-3xl font-extrabold lg:font-bold lg:text-2xl md:font-regular'>{props.title}</h1>
                         <h3 className='text-gray-600 pr-4 text-sm py-4'>{props.desc}</h3>
 
@@ -35,7 +34,7 @@ function Service() {
     }
     return (
         <section className=' container-center  w-screen h-fit lg:px-20 p-8 py-16 bg-[#f2f2f2] lg:bg-white '>
-            <div className="text lg:text-center">
+            <div  className="text lg:text-center">
                 <h1 className='text-5xl font-bold mb-16'>
                     Our Professional Virtual Assistant Services
                 </h1>
@@ -44,7 +43,6 @@ function Service() {
             </div>
             <div className="service grid sm:grid-cols-1 lg:grid-cols-2  lg:gap-8 md:grid-cols-2 md:gap-8">
                 <Box title={"Content Writing Services"} img={ser1} desc={"Don't waste your time to write your own content , because we provide Web content, Blog , Newsletter , Travel , Press release Online content Writing services "}/>
-
                 <Box title={"IT Services"} img={ser4} desc={"Web Design, Branding and Logo design , Web development , Ecommerce Development, Software development , Which will give a Professional look for your business"}/>
                 <Box title={"Digital Marketing Services"} img={ser2} desc={"SEO, PPC, Social media optimization ,Content marketing ,Email/SMS services , Logo and graphics"}/>
                 <Box title={"Data Management Services"} img={ser3} desc={"Data entry ,Data processing, Data conversion, Copy paste services. These services while saves your precious time to grow your business "}/>
