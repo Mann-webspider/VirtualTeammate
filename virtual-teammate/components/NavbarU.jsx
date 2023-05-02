@@ -52,8 +52,8 @@ function NavbarU() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#contact" className="flex items-center">
-          Contact
+        <a href="#service" className="flex items-center">
+          Services
         </a>
       </Typography>
       <Typography
@@ -62,8 +62,8 @@ function NavbarU() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Docs
+        <a href="#contact" className="flex items-center">
+          Contact
         </a>
       </Typography>
     </ul>
@@ -84,14 +84,18 @@ function NavbarU() {
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
+            <Link href="/freeConsult">
+
             <Button
               variant="gradient"
               size="sm"
               className="hidden lg:inline-block"
               color='green'
-            >
+              
+              >
               <span>Join now</span>
             </Button>
+              </Link>
             <IconButton
               variant="text"
               className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -133,9 +137,12 @@ function NavbarU() {
         </div>
         <MobileNav open={openNav}>
           {navList}
+          <Link href='/freeConsult'>
+
           <Button variant="gradient" color='green' size="sm" fullWidth className="mb-2">
             <span>Join now</span>
           </Button>
+          </Link>
         </MobileNav>
       </Navbar>
       

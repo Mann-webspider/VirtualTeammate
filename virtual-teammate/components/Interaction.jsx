@@ -12,7 +12,7 @@ function Interaction() {
           <Image src={img} className='w-full h-full object-contain rounded-[3rem] shadow-2xl lg:rounded-[4rem] md:w-fit' alt='img' />
         </div>
 
-        <div data-aos="fade-left" data-aos-duration="1000" className="right lg:w-1/2">
+        <div data-aos="fade-left" data-aos-duration="1000 " className="right lg:w-1/2">
           <h2 className='lg:font-bold font-bold text-5xl px-8 lg:px-16 pt-16 pb-8'>
             Free Consultancy of our Expert Virtual Assistant
           </h2>
@@ -22,7 +22,7 @@ function Interaction() {
           </p>
 
           <div className=' w-fit h-fit '>
-            <Link href={'#'} className='no-underline text-black'><button className=' bg-black pointer text-white shadow-2xl active:scale-90   hover:translate-x-4 duration-300  py-2 rounded-full font-medium flex items-center justify-between lg:font-bold pl-8 ml-8 text-lg lg:mx-16'>Free Consult <span className='ml-4 mr-2'><HiArrowSmRight className='h-12 w-12 bg-[#aacfb9] text-[#000] rounded-full p-2 ' /></span>
+            <Link href={'freeConsult'} className='no-underline text-black'><button className=' bg-black pointer text-white shadow-2xl active:scale-90   hover:translate-x-4 duration-300  py-2 rounded-full font-medium flex items-center justify-between lg:font-bold pl-8 ml-8 text-lg lg:mx-16'>Free Consult <span className='ml-4 mr-2'><HiArrowSmRight className='h-12 w-12 bg-[#aacfb9] text-[#000] rounded-full p-2 ' /></span>
             </button></Link>
           </div>
         </div>

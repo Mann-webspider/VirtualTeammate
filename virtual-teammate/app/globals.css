@@ -13,7 +13,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  
 }
+
 
 
 html{
@@ -21,6 +23,7 @@ html{
   scroll-behavior: smooth;
   scroll-snap-align: center;
   scroll-snap-type: mandatory;
+  -webkit-tap-highlight-color: transparent;
 }
 @media (prefers-color-scheme: light) {
   :root {

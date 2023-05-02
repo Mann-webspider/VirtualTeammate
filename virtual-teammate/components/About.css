@@ -1,0 +1,9 @@
+#about{
+    background-image: url("../public/line.svg");
+
+}
+.why ul li{
+    padding-top: 1rem;
+    list-style: disc;
+    font-style: italic;
+}
