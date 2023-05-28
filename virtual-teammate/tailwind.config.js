@@ -17,10 +17,17 @@ module.exports = withMT({
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors:{
-        'col':'#aacfb9',
-        'txt':''
-      }
+        'col':'#081421',
+        'primary':'#2a73bb',
+        'background':'#eaf2fa',
+        'secondary':'#d1e3f5',
+        'accent':'#2666a6'
+      },
+      
     },
+    fontFamily:{
+      'body':['Poppins, sans-serif']
+    }
   },
   plugins: [],
 })

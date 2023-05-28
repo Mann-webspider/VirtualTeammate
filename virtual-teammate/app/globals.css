@@ -6,7 +6,9 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');   */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap'); */
 
 
 :root {
@@ -19,10 +21,10 @@
 
 
 html{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Manrope', sans-serif;
   scroll-behavior: smooth;
-  scroll-snap-align: center;
-  scroll-snap-type: mandatory;
+  
+  scroll-snap-type: proximity;
   -webkit-tap-highlight-color: transparent;
 }
 @media (prefers-color-scheme: light) {

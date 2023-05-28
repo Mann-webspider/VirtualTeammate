@@ -1,34 +1,33 @@
 "use client";
 import Image from 'next/image'
-import React, { useState } from 'react';
+import React from 'react';
 import logo from "../public/blackLogo.png";
 import "./Navbar.css"
 import Link from 'next/link';
-import { HiMenu } from "react-icons/hi";
-import { HiOutlineX } from "react-icons/hi";
+
 import {
   Navbar,
   MobileNav,
   Typography,
   Button,
   IconButton,
-  Card,
+  
 } from "@material-tailwind/react";
 function NavbarU() {
   const [openNav, setOpenNav] = React.useState(false);
  
-  React.useEffect(() => {
-    window.addEventListener(
-      "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false)
-    );
-  }, []);
+  // React.useEffect(() => {
+  //   window.addEventListener(
+  //     "resize",
+  //     () => window.innerWidth >= 960 && setOpenNav(false)
+  //   );
+  // }, []);
  
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
-        variant="small"
+        variant="regular"
         color="blue-gray"
         className="p-1 font-normal"
       >
@@ -38,7 +37,7 @@ function NavbarU() {
       </Typography>
       <Typography
         as="li"
-        variant="small"
+        variant="regular"
         color="blue-gray"
         className="p-1 font-normal"
       >
@@ -48,7 +47,17 @@ function NavbarU() {
       </Typography>
       <Typography
         as="li"
-        variant="small"
+        variant="regular"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <a href="#about" className="flex items-center">
+          How it works
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="regular"
         color="blue-gray"
         className="p-1 font-normal"
       >
@@ -58,7 +67,7 @@ function NavbarU() {
       </Typography>
       <Typography
         as="li"
-        variant="small"
+        variant="regular"
         color="blue-gray"
         className="p-1 font-normal"
       >
@@ -71,7 +80,7 @@ function NavbarU() {
  
   return (
     <>
-      <Navbar className="fixed inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-2">
+      <Navbar className="fixed inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-2 ">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
@@ -79,21 +88,33 @@ function NavbarU() {
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
             <div className="logo flex items-center lg:flex-row ">
-            <Image  src={logo} className='w-16 h-16 lg:w-16 lg:h-16' alt='logo'/> <p className='text-xl lg:text-2xl font-bold flex'><span className='text-green-500'>Virtual</span> <span>Assistent</span></p>
+            <Image  src={logo} className='w-16 h-16 lg:w-16 lg:h-16' alt='logo'/> <p className='text-xl lg:text-2xl font-bold flex'><span className='text-primary'>Virtual</span> <span className='relative '>Teammate<b className='text-yellow-700   text-2xl  '>&#x2022;</b></span></p>
         </div>
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
-            <Link href="/freeConsult">
+            <Link href="/cancel">
 
             <Button
               variant="gradient"
               size="sm"
-              className="hidden lg:inline-block"
-              color='green'
+              className="hidden lg:inline-block text-md"
+              color='blue'
               
               >
-              <span>Join now</span>
+              <span>free Consult</span>
+            </Button>
+            
+              </Link>
+              <Link href={"/success"}>
+              <Button
+              variant="gradient"
+              size="sm"
+              className="hidden lg:inline-block ml-4 text-md"
+              color='blue'
+              
+              >
+              <span>Free trial</span>
             </Button>
               </Link>
             <IconButton
@@ -137,10 +158,16 @@ function NavbarU() {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Link href='/freeConsult'>
+          <Link href='/success'>
 
-          <Button variant="gradient" color='green' size="sm" fullWidth className="mb-2">
-            <span>Join now</span>
+          <Button variant="gradient" color='blue' size="md"  className="m-2">
+            <span>free Consult</span>
+          </Button>
+          </Link>
+          <Link href='/cancel'>
+
+          <Button variant="gradient" color='blue' size="md"  className="m-2">
+            <span>free trial</span>
           </Button>
           </Link>
         </MobileNav>

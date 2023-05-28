@@ -37,31 +37,31 @@ function Faqs() {
 
 
     return (
-        <section className=" h-fit px-8 bg-[#9eceb1] py-8 lg:px-16 lg:py-16">
+        <section className=" h-fit px-8 bg-background  md:px-16  py-8 lg:px-16 lg:py-16">
         
             <div className="text lg:text-center ">
-                <h1 className='text-6xl font-bold mb-16 text-black'>
+                <h1 className='text-6xl font-bold mb-16 text-col'>
                     Any Questions? Here is your Faqs
                 </h1>
             </div>
              
             <div className="flex flex-col lg:flex-row gap-10">
 
-                <div className="left w-full  lg:w-3/4  ">
+                <div className="left w-full  lg:w-full  ">
                     <Image src={faqImg} alt="faqImg" className="object-contain lg:rounded-[3rem] shadow-xl rounded-3xl" />
                 </div>
-                <div className="grid  gap-5  h-fit">
+                <div className="grid  gap-3  h-fit">
                     <Fragment >
 
                         {data.map(e => {
 
                             return (<Accordion open={open === e.id} key={e.id} icon={<Icon id={e.id} open={open} />}>
-                                <div className="bg-[#f2f2f2] rounded-[2rem] ">
+                                <div className="bg-blue-800 rounded-tl-[1.5rem] rounded-br-[1.5rem] ">
 
-                                    <AccordionHeader onClick={() => handleOpen(e.id)} className="bg-transparent rounded-full lg:px-8 px-4 lg:text-lg text-lg font-medium text-left border-none text-black btn">
+                                    <AccordionHeader onClick={() => handleOpen(e.id)} className=" rounded-tr-[3rem] rounded-bl-[3rem] lg:px-8 px-4 lg:text-lg text-lg font-medium text-white text-left border-none hover:text-white  btn">
                                         {e.title}
                                     </AccordionHeader>
-                                    <AccordionBody className=" lg:px-8 px-4 rounded-full bg-transparent text-md font-medium  lg:font-thin">
+                                    <AccordionBody className=" lg:px-8 px-4 rounded-full  text-lg font-medium text-white lg:font-thin">
                                         {e.desc}
                                     </AccordionBody>
                                 </div>

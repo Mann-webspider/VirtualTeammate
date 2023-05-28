@@ -5,8 +5,8 @@
 },
 {
     "id": 2,
-    "title": "Q: What services do virtual teammates provide?",
-    "desc": "A: Virtual teammates can provide a wide range of services, including administrative support, social media management, bookkeeping, research assistance, content creation, and more."
+    "title": "Q: what are the payment terms ?",
+    "desc": "A:Hourly Rate: The VA charges an hourly rate for their services. The client pays for the actual hours worked by the VA.\n Project-Based: The VA charges a flat fee for completing a specific project or task. The payment is typically made upon completion of the project or in agreed-upon milestones."
 },
 {
     "id": 3,
@@ -21,7 +21,7 @@
 {
     "id": 5,
     "title": "Q: How much do your virtual teammate services cost?",
-    "desc": "A: Our pricing is based on the type and amount of services you require. Please contact us for a personalized quote."
+    "desc": "A: Our pricing is based on the same charges with various task , it can be with pay per task or pay per hour."
 },
 {
     "id": 6,
@@ -32,5 +32,10 @@
     "id": 7,
     "title": "Q: What payment methods do you accept?",
     "desc": "A: We accept payment by credit card, PayPal, and bank transfer."
+},
+{
+    "id": 8,
+    "title": "Q: Can I receive a refund if I cancel a project or contract early?",
+    "desc": "A: Refunds for early project or contract cancellations may be subject to the terms outlined in the agreement between you and the VA. It's important to review the cancellation policy before making any decisions. "
 }
 ]

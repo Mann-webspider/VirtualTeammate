@@ -9,6 +9,8 @@ import { ThemeProvider } from "@material-tailwind/react";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import About from "@/components/About";
+import Process from "@/components/Process";
+import How from "@/components/How";
 
 
 
@@ -20,14 +22,16 @@ export default function Home() {
     <ThemeProvider>
 
 
-    <main className="p-0 m-0 box-border relative">
+    <main className=" overflow-hidden">
       <NavbarU/> 
       <Hero/>
-      <Features/>
-      <About/>
-      <Service/>
-      <Faqs/>
       <Interaction/>
+      <Features/>
+      <Service/>
+      <About/>
+      <How/>
+      <Process/>
+      <Faqs/>
       <Contact/>
       <Footer/>
     </main>
