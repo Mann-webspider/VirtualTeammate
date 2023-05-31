@@ -1,7 +1,7 @@
 import React from 'react'
 import desk from "../public/working-desk.jpg"
 import Image from 'next/image';
-
+import "./Features.css";
 
 function Features() {
     const Testi = (props) => {
@@ -15,20 +15,24 @@ function Features() {
         );
     }
   return (
-    <div class="bg-white py-24 sm:py-32">
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
-      <div class="mx-auto flex max-w-xs flex-col gap-y-4 hover:shadow-xl px-8 py-4 duration-300">
-        <dt class="text-base leading-7 text-gray-600">Transactions every 24 hours</dt>
-        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">44 million</dd>
+    <div className=" py-24 sm:py-32 bg-blue-50  text-black">
+      <h1 className=' font-bold  lg:text-7xl text-center text-5xl uppercase w-fit lg:mx-auto lg:mb-16 mb-8 px-8  rounded-lg '>Statistic</h1>
+      <h4 className=' font-semibold  lg:text-2xl lg:text-center text-2xl  lg:w-2/3 w-full lg:mx-auto mb-8 px-8  rounded-lg z-10 '>"Experience Our Outstanding Success: Impressive Work Statistics, Delighted Client Testimonials, and Professional Numbers"</h4>
+      {/* <div className='pattern2 z-[0]'></div> */}
+      {/* <div className='pattern absolute left-0 z-[-2]'></div> */}
+  <div className="mx-auto max-w-7xl px-6 lg:px-8 z-20 ">
+    <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3  rounded-xl">
+      <div className="mx-auto flex max-w-xs flex-col gap-y-4 hover:shadow-xl rounded-xl  px-8 py-4 duration-300 z-5 hover:scale-110">
+        <dt className="text-base leading-7  font-semibold">Hours saved for our clients</dt>
+        <dd className="order-first text-5xl font-bold tracking-tight stroke text-transparent sm:text-6xl">1000+</dd>
       </div>
-      <div class="mx-auto flex max-w-xs flex-col gap-y-4 hover:shadow-xl px-8 py-4 duration-300">
-        <dt class="text-base leading-7 text-gray-600">Assets under holding</dt>
-        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">$119 trillion</dd>
+      <div className="mx-auto flex max-w-xs flex-col gap-y-4 hover:shadow-xl rounded-xl px-8 py-4 duration-300 z-5 hover:scale-110">
+        <dt className="text-base font-semibold leading-7 ">Happy Clients</dt>
+        <dd className="order-first text-5xl font-bold tracking-tight stroke text-transparent sm:text-7xl">55</dd>
       </div>
-      <div class="mx-auto flex max-w-xs flex-col gap-y-4 hover:shadow-xl px-8 py-4 duration-300">
-        <dt class="text-base leading-7 text-gray-600">New users annually</dt>
-        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">46,000</dd>
+      <div className="mx-auto flex max-w-xs flex-col gap-y-4 hover:shadow-xl rounded-xl px-8 py-4 duration-300 z-5 hover:scale-110">
+        <dt className="text-base leading-7  font-semibold">Professional Teammates</dt>
+        <dd className="order-first text-6xl font-bold tracking-tight stroke text-transparent sm:text-7xl">46</dd>
       </div>
     </dl>
   </div>

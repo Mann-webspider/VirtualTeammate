@@ -9,23 +9,18 @@ import { HiArrowSmRight } from "react-icons/hi";
 function Service() {
     const Box = (props) => {
         return (
-            <div   className=' h-fit py-2 px-4 lg:p-8 bg-secondary  rounded-tr-[3rem] rounded-bl-[3rem] shadow-lg  my-6 max-w-[40rem] active:scale-100  hover:ring-4 hover:ring-primary hover:ring-offset-4 transition hover:duration-300 '>
-                <div className=" flex flex-col lg:flex-row justify-evenly w-full h-full relative">
+            <div   className=' h-fit p-6 lg:p-8  hover:text-gray-50 rounded-lg hover:shadow-xl hover:bg-gradient-to-br hover:from-blue-800 hover:to-cyan-500 my-6 max-w-[40rem] hover:scale-110   transition duration-500 '>
+                <div className=" flex flex-col lg:flex-col justify-evenly w-full h-full relative">
                     
                     <div className="text  top-0  py-2">
-                        <h1 className='text-3xl font-extrabold lg:font-bold lg:text-2xl md:font-regular '>{props.title}</h1>
-                        <h3 className='hovertext-gray-200 pr-4 text-lg py-4 select-none'>{props.desc}</h3>
+                        <h1 className='text-3xl font-extrabold lg:font-bold lg:text-4xl md:font-regular w-full'>{props.title}</h1>
+                        <h3 className='pr-4 text-lg py-4 select-none'>{props.desc}</h3>
 
                     </div>
                     <div className="img  top-[70%] ">
-                        <Image src={props.img} className='w-fit h-fit' alt={props.img} />
+                        <Image src={props.img} className='w-fit h-fit hue-rotate-90 saturate-150 contrast-100   ' alt={props.img} />
                     </div>
-                    <div className=' w-fit h-fit  '>
-                        {/* <Link href={'#'}><button className=' bg-[#aacfb9] py-1 rounded-full font-medium md:font-bold flex items-center  lg:font-bold pl-6  lg:pl-8 mt-8 text-lg '>Read More <span className='ml-2 mr-2'><HiArrowSmRight className='h-12 w-12 bg-black text-[#aacfb9] rounded-full p-2 ' /></span>
-                            </button></Link> */}
-                        <Link href={'#'}><span className='ml-2 mr-2'><HiArrowSmRight className='h-12 w-12 bg-black text-[#ffffff] rounded-full p-2 ' /></span>
-                        </Link>
-                    </div>
+                    
                 </div>
 
 
@@ -33,22 +28,21 @@ function Service() {
         )
     }
     return (
-        <section className=' container-center  h-fit lg:px-20 p-8 py-16 md:px-16 bg-background lg:bg-bacground ' id='service'>
+        <section className=' container-center  h-fit lg:px-20 p-8 py-16 md:px-16  lg:bg-blue-50 ' id='service'>
             <div  className="text lg:text-center">
-                <h1 className='text-5xl font-bold mb-16'>
+        
+                <h1 className='text-5xl font-bold mb-16 rounded-lg px-0 text-white py-8 bg-gradient-to-br from-blue-800 to-cyan-500'>
                     Our Professional Virtual Teammate Services
                 </h1>
-
-               
             </div>
-            <div className="service grid sm:grid-cols-1 lg:grid-cols-2  lg:gap-8 md:grid-cols-2 md:gap-8">
+            <div className="service grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 lg:gap-8 md:grid-cols-2 md:gap-8">
                 <Box title={"Content Writing Services"} img={ser1} desc={"Don't waste your time to write your own content , because we provide Web content, Blog , Newsletter , Travel , Press release Online content Writing services "}/>
                 <Box title={"IT Services"} img={ser4} desc={"Web Design, Branding and Logo design , Web development , Ecommerce Development, Software development , Which will give a Professional look for your business"}/>
                 <Box title={"Digital Marketing Services"} img={ser2} desc={"SEO, PPC, Social media optimization ,Content marketing ,Email/SMS services , Logo and graphics"}/>
                 <Box title={"Data Management Services"} img={ser3} desc={"Data entry ,Data processing, Data conversion, Copy paste services. These services while saves your precious time to grow your business "}/>
                 <Box title={"Virtual Receptionist Services"} img={ser1} desc={"Receptionist Services provide you Lead management, Taking messages , Transfer/route calls Scheduling appointments"}/>
                 <Box title={"Virtual Personal Assistant"} img={ser2} desc={"We provide you a personal assistant for Data entry, Content writing, Relationship builders with customer, Managing your email  etc."}/>
-                <Box title={"Virtual Assistant Services"} img={ser4} desc={"There are various types of assistant roles, including research assistant, medical assistant, administrative assistant, eCommerce assistant, real estate assistant, and social media assistant."}/>
+                <Box title={"Virtual Assistant Services"} img={ser4} desc={"There are various types of assistant roles, including research assistant, medical assistant, administrative assistant, eCommerce assistant, real estate assistant, and social media assistant."} long={true}/>
             </div>
         </section>
     )

@@ -15,7 +15,7 @@ function How() {
 
         return (
             <>
-                <div className='    max-w-xl lg:max-w-3xl  p-6 min-h-24 rounded-md mt-4 hover:shadow-lg hover:shadow-[#3f7cdfb0]  mx-4 duration-500' >
+                <div className='    max-w-xl lg:max-w-3xl  p-6 min-h-24 rounded-md mt-4 hover:shadow-lg hover:shadow-[#00000050]  mx-4 duration-500' >
                     <p className='bg-primary  w-fit px-2 h-6 text-white  font-bold text-center rounded-sm'>{props.num}</p>
                     <p className='my-4 lg:font-semibold text-black font-body text-lg xl:text-md w-80'>{props.desc}</p>
                 </div>
@@ -25,9 +25,9 @@ function How() {
 
    
     return (
-        <div className=' h-fit md:py-16 px-8 md:px-16 py-16 lg:px-16 xl:px-24 bg-background relative lg:pt-16'>
+        <div className=' h-fit md:py-16 px-8 md:px-16 py-16 lg:px-16 xl:px-24  relative lg:pt-16'>
             <div className='max-w-2xl mx-auto md:max-w-4xl '>
-                <h3 className='text-6xl lg:font-bold lg:text-center pb-8 font-semibold font-body'>Are you not Sure ,What to do?</h3>
+                <h3 className='text-6xl lg:font-bold lg:text-center py-8 font-semibold font-body bg-cyan-500 rounded-lg text-white'>Are you not Sure ,What to do?</h3>
             </div>
             <h3 className='mb-4 lg:text-center text-left text-3xl font-semibold'> Are you Confused between your work allotment ? <br/> Let us help you to easy your decision</h3>
             <div className='z-10 pt-8'>

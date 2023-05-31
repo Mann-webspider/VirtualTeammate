@@ -1,8 +1,0 @@
-#contact{
-    background-image: url('../public/dots-grid2.svg');
-    background-repeat: repeat;
-    background-position: center;
-    object-fit: contain;
-    background-blend-mode: darken;
-    /* background-color:rgb(60, 59, 59); */
-}

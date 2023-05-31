@@ -29,7 +29,7 @@ export default function Home() {
       <Features/>
       <Service/>
       <About/>
-      <How/>
+      {/* <How/> */}
       <Process/>
       <Faqs/>
       <Contact/>

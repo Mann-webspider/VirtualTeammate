@@ -2,8 +2,8 @@ import React from 'react'
 import "./About.css"
 function About() {
     return (
-        <div id='about'   className='flex justify-around  items-center lg:px-12 lg:py-8 snap-center    h-fit  md:px-8'>
-            <div className=' bg-accent   grid lg:grid-cols-4 lg:grid-row-2 grid-row-2 lg:p-8 rounded-tr-[3rem] rounded-bl-[3rem] gap-8 w-full h-full md:py-8 md:px-8'>
+        <div id='about'   className='flex justify-around  items-center lg:px-12 lg:py-8 snap-center bg-blue-gray-50   h-fit  md:px-8'>
+            <div className=' bg-gradient-to-br from-blue-800 to-cyan-500   grid lg:grid-cols-4 lg:grid-row-2 grid-row-2 lg:p-8 rounded-lg gap-8 w-full h-full md:py-8 md:px-8'>
                 <div className='why  lg:col-span-1 lg:row-span-2 text-white rounded-2xl lg:px-8 order-2  p-8  col-span-3'>
                     <h2 className='text-2xl lg:text-2xl font-bold md:text-3xl py-4'>WHY VIRTUAL TEAM MATE</h2>
                     
@@ -20,8 +20,8 @@ function About() {
                         </ul>
                     
                 </div>
-                <div className='about bg-white rounded-tl-[3rem] rounded-br-[3rem] p-8 col-span-3 shadow-2xl row-span-2 lg:text-lg'>
-                    <h2 className='text-3xl lg:text-5xl text-gray-800 font-bold '>About us</h2>
+                <div className='about rounded-lg p-8 col-span-3 text-white  row-span-2 lg:text-lg'>
+                    <h2 className='text-3xl lg:text-5xl text-gray-200 font-bold '>About us</h2>
                     <p className='text-lg lg:text-2xl mt-16'>We are a team of young and experienced members with versatile backgrounds and expertise. we thrive to build an
                         eco-system of virtual teams for any size of the organization where business growth, expansion, or productivity can
                         be achieved with economical cost and zero maintenance by outsourcing to Virtual Team Mate. </p>

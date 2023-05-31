@@ -1,0 +1,24 @@
+.pattern    {
+    background-image: url("../public/pattern.svg") !important;
+    background-position: 0% 95%;
+    background-repeat: no-repeat;
+    z-index: -4;
+    background-size: 50%;
+    /* background-color: rgb(21, 162, 232) !important; */
+}
+.pattern2{
+    background-image: url("../public/pattern2.svg") ;
+    animation: mover infinite 40s 0ms linear ;
+    background-position: 95% 0%;
+    background-repeat: no-repeat;
+    z-index: -4;
+    background-size: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 1%;
+    right: -1%;
+}
+.stroke{
+    -webkit-text-stroke: 2px rgb(13, 206, 223);
+}
