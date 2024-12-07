@@ -33,7 +33,7 @@ function page() {
 					<div className='description px-16 py-4 md:flex-col lg:flex-row xl:flex-row '>
 						<div className='lg:w-2/4'>
 							<h2 className='text-3xl font-semibold pb-8'> Discover the Power of Virtual Teammates with a Free Consultation</h2>
-							<h3 className=' text-xl'>Welcome to our virtual Teammate services! We understand the importance of finding the perfect virtual teammate who can support your business and help you achieve your goals.<br /><br /> That's why we offer a free consultation to introduce you to our services and discuss how we can assist you.</h3>
+							<h3 className=' text-xl'>Welcome to our virtual Teammate services! We understand the importance of finding the perfect virtual teammate who can support your business and help you achieve your goals.<br /><br /> That's why we offer a free consultation to introduce you to our services and discuss how we can assist you as your work Productive effective.</h3>
 
 							<div className='py-8'>
 								<Button text={"Free Consultation"} to="/freeConsult"/>

@@ -36,13 +36,13 @@ function Service() {
                 </h1>
             </div>
             <div className="service grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 lg:gap-8 md:grid-cols-2 md:gap-8">
-                <Box title={"Content Writing Services"} img={ser1} desc={"Don't waste your time to write your own content , because we provide Web content, Blog , Newsletter , Travel , Press release Online content Writing services "}/>
-                <Box title={"IT Services"} img={ser4} desc={"Web Design, Branding and Logo design , Web development , Ecommerce Development, Software development , Which will give a Professional look for your business"}/>
-                <Box title={"Digital Marketing Services"} img={ser2} desc={"SEO, PPC, Social media optimization ,Content marketing ,Email/SMS services , Logo and graphics"}/>
-                <Box title={"Data Management Services"} img={ser3} desc={"Data entry ,Data processing, Data conversion, Copy paste services. These services while saves your precious time to grow your business "}/>
-                <Box title={"Virtual Receptionist Services"} img={ser1} desc={"Receptionist Services provide you Lead management, Taking messages , Transfer/route calls Scheduling appointments"}/>
-                <Box title={"Virtual Personal Assistant"} img={ser2} desc={"We provide you a personal assistant for Data entry, Content writing, Relationship builders with customer, Managing your email  etc."}/>
-                <Box title={"Virtual Assistant Services"} img={ser4} desc={"There are various types of assistant roles, including research assistant, medical assistant, administrative assistant, eCommerce assistant, real estate assistant, and social media assistant."} long={true}/>
+                <Box title={"Content Writing Task"} img={ser1} desc={"Don't waste your time to write your own content , because we provide Web content, Blog , Newsletter , Travel , Press release Online content Writing services "}/>
+                <Box title={"IT Task"} img={ser4} desc={"Web Design, Branding and Logo design , Web development , Ecommerce Development, Software development , Which will give a Professional look for your business"}/>
+                <Box title={"Digital Marketing Task"} img={ser2} desc={"SEO, PPC, Social media optimization ,Content marketing ,Email/SMS services , Logo and graphics"}/>
+                <Box title={"Data Management Task"} img={ser3} desc={"Data entry ,Data processing, Data conversion, Copy paste services. These services while saves your precious time to grow your business "}/>
+                <Box title={"Receptionist Task"} img={ser1} desc={"Receptionist Services provide you Lead management, Taking messages , Transfer/route calls Scheduling appointments"}/>
+                <Box title={"Personal Task"} img={ser2} desc={"We provide you a personal assistant for Data entry, Content writing, Relationship builders with customer, Managing your email  etc."}/>
+                <Box title={" Assistant Task"} img={ser4} desc={"There are various types of assistant roles, including research assistant, medical assistant, administrative assistant, eCommerce assistant, real estate assistant, and social media assistant."} long={true}/>
             </div>
         </section>
     )

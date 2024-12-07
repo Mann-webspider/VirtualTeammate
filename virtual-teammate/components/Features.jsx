@@ -31,8 +31,8 @@ function Features() {
         <dd className="order-first text-5xl font-bold tracking-tight stroke text-transparent sm:text-7xl">55</dd>
       </div>
       <div className="mx-auto flex max-w-xs flex-col gap-y-4 hover:shadow-xl rounded-xl px-8 py-4 duration-300 z-5 hover:scale-110">
-        <dt className="text-base leading-7  font-semibold">Professional Teammates</dt>
-        <dd className="order-first text-6xl font-bold tracking-tight stroke text-transparent sm:text-7xl">46</dd>
+        <dt className="text-base leading-7  font-semibold">Skill Teams</dt>
+        <dd className="order-first text-6xl font-bold tracking-tight stroke text-transparent sm:text-7xl">25</dd>
       </div>
     </dl>
   </div>

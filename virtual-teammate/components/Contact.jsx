@@ -60,16 +60,16 @@ export default function Contact() {
 
         <div className="mx-auto max-w-2xl ">
           <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl">Contact Us</h2>
-          <p className="mt-2 text-lg leading-8 ">Get connect with us to solve your problems</p>
+          <p className="mt-2 text-lg leading-8 ">Get connect with us And Get your work Productive</p>
           <p className='w-60 mt-12'><b>Office Address:</b><br />
             626, Gala Empire,
             Drive-in road,
             Ahmedabad, India-380052
           </p>
-          <p className='mt-12'><b>Phone-</b><br/> +91- 7486969267 | +91- 7359598111
+          <p className='mt-12'><b>Phone-</b><br/> +91- 1234567890 | +91- 9876543210
           </p>
           <p className='mt-4'><b>Mail-</b><br/> 
-          <a href='https://googlemail.com/virtualteammate1@gmail.com' className='underline text-blue-50' >virtualteammate1@gmail.com</a>
+          <a href='#' className='underline text-blue-50' >youeEmail@gmail.com</a>
           </p>
 
           <h3 className='text-2xl font-bold mt-12'>Follow us</h3>
@@ -83,7 +83,7 @@ export default function Contact() {
         </div>
       </div>
      <div>
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.353736802533!2d72.5225283104582!3d23.04748951531174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85003775c6cf%3A0xd0b3afce2dd6a905!2sKaizen%20Market%20Research%20and%20Consultancy!5e0!3m2!1sen!2sin!4v1685513585532!5m2!1sen!2sin" width="800" height="600"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='border-none'></iframe>
+     <iframe src="  " width="800" height="600"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='border-none'></iframe>
      {/* <iframe src="https://calendar.google.com/calendar/embed?src=manndalsaniya.25%40gmail.com&ctz=Asia%2FKolkata"  width="800" height="600" frameborder="0" scrolling="no"></iframe> */}
      </div>
 

@@ -52,20 +52,46 @@ export default function Contact() {
 
 
 
+  //moment timezone
+  const moment = require('moment-timezone');
+
+// Function to convert client's timezone date and time to local timezone
+function convertToLocalTime(clientDateTime, clientTimezone) {
+  // Parse the client's date and time using the client's timezone
+  const clientMoment = moment.tz(clientDateTime, clientTimezone);
+  
+  // Convert the client's date and time to the local timezone
+  const localMoment = clientMoment.clone().tz('Asia/Kolkata'); // Replace 'Your_Local_Timezone' with your desired local timezone
+  
+  // Format the local date and time
+  const localDateTime = localMoment.format('DD-MM-YYYY HH:mm:ss');
+  
+  return localDateTime;
+}
+
+// Example usage
+const clientDateTime = '2023-06-01 16:30:00'; // Replace with the client's date and time in their timezone
+const clientTimezone = 'America/Denver'; // Replace with the client's timezone
+
+const localDateTime = convertToLocalTime(clientDateTime, clientTimezone);
+console.log(clientDateTime, clientTimezone)
+console.log('Local Date and Time:', localDateTime);
+
+
+
 
 
   return (
     <>
-    <NavbarU/>
-    <header className='h-[35rem] bg-gray-900 flex justify-center items-center'>
+    {/* <NavbarU/> */}
+    {/* <header className='h-[35rem] bg-gray-900 flex justify-center items-center'>
     <h1 className='stroke text-transparent text-8xl font-bold text-center'>Let's Begin the Journey with right mindset</h1>
-    </header>
-      <div className='w-screen h-screen relative'  >
-        <span className=' w-2/6 h-screen absolute z-[-2]'>
-        </span>
-        <div className='bg-transparent  mx-24 top-24 w-3/4 relative h-fit  flex z-10 justify-center items-center rounded-2xl'>
+    </header> */}
+      <div className='w-screen h-screen relative bg-[#ededed] '  >
+        <div className='bg-white h-fit  w-3/4 relative   flex z-10 justify-between items-center rounded-lg'>
+        <span className='h-full w-1/3 block bg-gradient-to-tl from-blue-800 to-cyan-500'></span>
           
-          <div className="right">
+          <div className="right w-2/3">
             <form action="" className='py-8'>
               <div className="grid grid-cols-1 gap-x-8 gap-y-6   sm:grid-cols-2">
                 <div>
@@ -128,7 +154,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

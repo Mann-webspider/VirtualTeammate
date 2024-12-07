@@ -80,7 +80,7 @@ function NavbarU() {
  
   return (
     <>
-      <Navbar className="fixed inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-6 xl:px-24 lg:py-2 bg-white " blurred={false}>
+      <Navbar className="fixed inset-0 z-10 h-max mx-auto rounded-xl mt-4 py-2 px-4 lg:px-6 xl:px-24 lg:py-2 bg-white " blurred={false} fullWidth={false}>
         <div className="flex items-center justify-between text-blue-gray-900 bg-white">
           <Typography
             as="a"
@@ -108,10 +108,10 @@ function NavbarU() {
               </Link>
               <Link href={"/success"}>
               <Button
-              variant="gradient"
+              variant="outlined"
               size="sm"
               className="hidden lg:inline-block ml-4 text-md"
-              color='blue'
+              color='deep-orange'
               
               >
               <span>Free trial</span>
